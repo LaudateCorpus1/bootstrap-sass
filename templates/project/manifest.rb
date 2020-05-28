@@ -18,3 +18,8 @@ assets   = File.expand_path('../../assets', manifest)
     send method, path.relative_path_from(manifest).to_s, :to => path.relative_path_from(root).to_s
   end
 end
+
+# Javascripts
+%w(alert button carousel collapse dropdown modal popover scrollspy tab tooltip transition).each do |file|
+  javascript "#{basedir}/javascripts/bootstrap-#{file}.js", :to => "bootstrap-#{file}.js"
+end

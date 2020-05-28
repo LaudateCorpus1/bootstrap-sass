@@ -177,6 +177,9 @@ It can be required without adding Bootstrap JS directory to load path, as it now
 * Updated to Bootstrap 2.1
 * Changed some mixin names to be more consistent. Nested mixins in Less are separated by a `-` when they are flattened in Sass.
 
+## 2.0.4.2
+* Revert "Fix `.row-fluid > spanX` nesting"
+
 ## 2.0.4.1
 * Fix `.row-fluid > spanX` nesting
 * Small Javascript fixes for those staying on the 2.0.4 release
